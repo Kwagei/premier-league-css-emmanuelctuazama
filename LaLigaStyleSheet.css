@@ -1,0 +1,157 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* Putting the "div" with contains the LaLiga Logo in the center */
+div {
+    text-align: center;
+}
+
+/* Targeting the HEADING of the Table*/
+tr th {
+    font-size: 15px;
+    color:rgb(252, 248, 203);
+    background-color:rgb(37,40,42);
+    height: 45px;
+}
+
+/* Setting the Width of the First Column */
+tr th:nth-child(1) {
+    width: 40px;
+}
+
+
+/* TARGETING the "TEAM" Column */
+.heading th:nth-child(3) {
+    text-align: left;
+    width: 350px;
+}
+
+
+/* Targeting and Styling these columns: "Pld", "W", "D", "L", "GF", "GA", "GD" */
+.heading th:nth-child(4), .heading th:nth-child(5), .heading th:nth-child(6),
+.heading th:nth-child(7), .heading th:nth-child(8), .heading th:nth-child(9),
+.heading th:nth-child(10), .heading th:nth-child(11) {
+    text-align: center;
+    width: 80px;
+}
+
+/* Styling the 2nd Column of the Table Head */
+.heading th:nth-child(2) {
+    text-align: center;
+    width: 140px;
+}
+
+/* targeting and styling "GA" "GD" */
+.heading th:nth-child(10), .heading th:nth-child(11) {
+    width: 85px;
+}
+
+/* Targeting and Styling the Team Batches */
+tr td img {
+    cursor: pointer;
+    width: 17px;
+    height: 19px;
+    /* margin-top: 20px; */
+}
+
+/* Aligning the 2nd Column text to the left */
+tr td:nth-child(3) {
+    text-align: left;
+}
+
+/* Positioning and Sizing the Football Teams */
+tr luca{
+    font-size: 15px;
+    position: relative; top: -3px; left: -7px
+}
+
+/* Coloring the rows of odd numbers and giving a specific height */
+.one, .three, .five, .seven, .nine, .eleven, .thirteen, .fifteen, .seventeen, .nineteen{
+    color: white;
+    background-color:rgb(37,65,80);
+    height: 50px;
+}
+
+/* Coloring the rows of even numbers  and giving it a specific height*/
+.two, .four, .six, .eight, .ten, .twelve, .fourteen, .sixteen, .eighteen, .twenty {
+    color: white;
+    background-color:rgb(16,32,40);
+    height: 50px;
+}
+
+
+.Arrow-R img {
+    width: 27px;
+    height: 24px;
+}
+
+.one td:nth-child(1), .two td:nth-child(1), .three td:nth-child(1), .four td:nth-child(1) {
+    border-left: solid rgb(0,179,137) 2px;
+    border-width: 9px;
+}
+
+.five td:nth-child(1) {
+    border-left: solid rgb(245,190,1) 2px;
+    border-width: 9px;
+}
+
+.six td:nth-child(1) {
+    border-left: solid rgb(101,78,163) 2px;
+    border-width: 9px;
+}
+
+.eighteen td:nth-child(1), .nineteen td:nth-child(1), .twenty td:nth-child(1) {
+    border-left: solid rgb(210,0,40) 2px;
+    border-width: 9px;
+}
+
+/* Champions League indication/presentation */
+section p{
+    text-align: left;
+    border-left: solid rgb(0,179,137) 2px;
+    border-width: 8px;
+    height: 20px;
+    font-size: 20px;
+}
+
+/* Europa League indication/presentation */
+section div p{
+    border-left: solid rgb(245,190,1) 2px;
+    border-width: 8px;
+    height: 20px;
+    font-size: 18px;
+    float: right;
+    margin-right: 50%;
+    margin-bottom: 90px;
+    position: relative; top: -55px; left: 1px;
+}
+
+/* Conference League indication/presentation */
+section div c{
+    border-left: solid rgb(101,78,163) 2px;
+    border-width: 8px;
+    height: 20px;
+    font-size: 18px;
+    float: right;
+    margin-right: 50%;
+    margin-bottom: 90px;
+    position: relative; top: -164px; left: 225px;
+}
+
+/* Relegation indication */
+section div r{
+    border-left: solid rgb(210,0,40) 2px;
+    border-width: 8px;
+    height: 20px;
+    font-size: 18px;
+    float: right;
+    margin-right: 50%;
+    margin-bottom: 90px;
+    position: relative; top: -274px; left: 370px;
+}
+
+
